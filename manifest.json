@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "YouTube Old Design",
     "description": "Returns old YouTube design",
-    "version": "1.4.8.8",
+    "version": "1.0.0.0",
     "icons": {"128": "icon128.png"},
     "permissions": ["activeTab"],
     "content_scripts": [
