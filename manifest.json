@@ -1,0 +1,18 @@
+﻿{
+    "manifest_version": 2,
+    "name": "YouTube Old Design",
+    "description": "Возвращает старый дизайн YouTube",
+    "version": "1.4.8.8",
+    "icons": {"128": "icon128.png"},
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*",
+                "https://*.youtu.be/*"
+            ],
+            "js": ["script.js"],
+            "run_at": "document_start"
+        }
+    ]    
+}
