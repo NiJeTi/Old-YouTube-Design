@@ -1,7 +1,7 @@
 ﻿{
     "manifest_version": 2,
     "name": "YouTube Old Design",
-    "description": "Возвращает старый дизайн YouTube",
+    "description": "Returns old YouTube design",
     "version": "1.4.8.8",
     "icons": {"128": "icon128.png"},
     "permissions": ["activeTab"],
