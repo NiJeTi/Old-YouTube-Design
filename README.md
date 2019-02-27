@@ -1,3 +1,4 @@
+![Project Status](https://img.shields.io/badge/status-finished-blue.svg)
 # Old-YouTube-Design
 This extension returns old YouTube design.
 ------------------------------------------
