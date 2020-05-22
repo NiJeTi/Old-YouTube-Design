@@ -3,16 +3,22 @@
     "name": "YouTube Old Design",
     "description": "Returns old YouTube design",
     "version": "1.0.0.0",
-    "icons": {"128": "icon128.png"},
-    "permissions": ["activeTab"],
+    "icons": {
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
     "content_scripts": [
         {
             "matches": [
                 "https://*.youtube.com/*",
                 "https://*.youtu.be/*"
             ],
-            "js": ["script.js"],
+            "js": [
+                "core.js"
+            ],
             "run_at": "document_start"
         }
-    ]    
+    ]
 }
